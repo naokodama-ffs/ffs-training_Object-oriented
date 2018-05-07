@@ -1,0 +1,6 @@
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\bin\Debug\新人研修_オブジェクト指向.exe.config
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\bin\Debug\新人研修_オブジェクト指向.exe
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\bin\Debug\新人研修_オブジェクト指向.pdb
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\obj\Debug\新人研修_オブジェクト指向.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\obj\Debug\新人研修_オブジェクト指向.exe
+C:\Users\Public\Documents\16.新人研修講師\2018_オブジェクト指向の歴史\提出用\新人研修_オブジェクト指向\新人研修_オブジェクト指向\obj\Debug\新人研修_オブジェクト指向.pdb
