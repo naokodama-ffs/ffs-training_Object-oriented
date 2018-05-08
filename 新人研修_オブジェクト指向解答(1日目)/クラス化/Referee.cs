@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 
 namespace クラス化
 {
@@ -12,9 +12,6 @@ namespace クラス化
         public Kame kame;                   // カメインスタンス
         public Tokage tokage;               // トカゲインスタンス
         public Wani wani;                   // ワニインスタンス
-
-        public int kame_wani_distance;      // カメとワニの距離
-        public int tokage_wani_distance;    // トカゲとワニの距離
 
         // コンストラクタ
         public Referee()
@@ -28,28 +25,27 @@ namespace クラス化
             tokage_wani_distance = 0;
         }
 
-        /// Main関数から呼ばれる処理
-        ///
-        public void Execute()
-        {
+        /////
+        //public void Execute()
+        //{
 
-            while (kame != null || tokage != null)
-            {
-                // 動物の位置をチェックして、動物に動きを指示する
-                InstructKame();
-                InstructTokage();
-                InstructWani();
+        //    while (kame != null || tokage != null)
+        //    {
+        //        // 動物の位置をチェックして、動物に動きを指示する
+        //        InstructKame();
+        //        InstructTokage();
+        //        InstructWani();
 
-                // 状況を判定する
-                JudgeDeadOrLife();
+        //        // 状況を判定する
+        //        JudgeDeadOrLife();
 
-                // 1秒待機
-                System.Threading.Thread.Sleep(1000);
-                Console.WriteLine();
-            }
-            Console.WriteLine("トカゲとワニは全滅");
-            Console.Read();
-        }
+        //        // 1秒待機
+        //        System.Threading.Thread.Sleep(1000);
+        //        Console.WriteLine();
+        //    }
+        //    Console.WriteLine("トカゲとワニは全滅");
+        //    Console.Read();
+        //}
 
         // カメに動作指示
         public void InstructKame()
@@ -59,8 +55,9 @@ namespace クラス化
                 // もうカメは存在しない
                 return;
             }
+
             // ワニとカメの位置をチェック
-            kame_wani_distance = Math.Abs(kame.pos - wani.pos);
+            int kame_wani_distance = Math.Abs(kame.pos - wani.pos);
             // 距離に応じて動物に動きを指示する
             if( kame_wani_distance > 2)
             {
@@ -85,7 +82,7 @@ namespace クラス化
             }
 
             // ワニとトカゲの距離をチェック
-            tokage_wani_distance = Math.Abs(tokage.pos - wani.pos);
+            int tokage_wani_distance = Math.Abs(tokage.pos - wani.pos);
 
             // 距離に応じて動物に動きを指示する
             if ( tokage_wani_distance > 4)   
