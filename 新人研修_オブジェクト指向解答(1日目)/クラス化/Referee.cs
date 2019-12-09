@@ -12,6 +12,9 @@ namespace クラス化
         public Kame kame;                   // カメインスタンス
         public Tokage tokage;               // トカゲインスタンス
         public Wani wani;                   // ワニインスタンス
+        
+        private int kame_wani_distance;
+        private int tokage_wani_distance;
 
         // コンストラクタ
         public Referee()
